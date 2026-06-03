@@ -1,15 +1,20 @@
 import "./globals.css";
+import { Footer, Header } from "./_components/site";
 
 export const metadata = {
-  title: "[Business Name] | Care Support and Transportation",
+  title: "TAGA’S COMPASSIONATE CARE LLC | Indiana Medicaid Waiver Provider",
   description:
-    "Non-medical personal care support and dependable transportation services for daily assistance, community access, and connection.",
+    "Attendant care, home and community assistance, and nonmedical transportation for eligible Indiana waiver participants.",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Header />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
