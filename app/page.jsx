@@ -84,9 +84,9 @@ export default function Home() {
                   Nonmedical Transportation
                 </p>
                 <p className="mt-1 text-sm font-semibold leading-5 text-navy">
-                  Wheelchair-accessible vans with unassisted rides for approved
-                  appointments, errands, and essential destinations when authorized
-                  through the individual’s plan.
+                  Assisted and unassisted nonmedical rides in wheelchair-accessible
+                  vans for approved appointments, errands, and essential destinations
+                  when authorized through the individual’s plan.
                 </p>
               </div>
             </div>
@@ -120,9 +120,9 @@ export default function Home() {
         }
       >
         <p>
-          {business.name} provides attendant care, home and community assistance,
-          and nonmedical transportation for eligible Indiana waiver participants
-          in Hendricks, Johnson, Marion, and Morgan counties.
+          Attendant care, home and community assistance, and assisted or
+          unassisted nonmedical transportation for eligible Indiana waiver
+          participants across Hendricks, Johnson, Marion, and Morgan counties.
         </p>
       </PageHero>
 

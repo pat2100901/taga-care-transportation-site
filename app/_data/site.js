@@ -87,13 +87,13 @@ export const services = [
     slug: "nonmedical-transportation",
     title: "Nonmedical Transportation",
     shortTitle: "Nonmedical Transportation",
-    eyebrow: "Wheelchair-accessible & unassisted rides",
+    eyebrow: "Assisted & unassisted rides",
     image: "/images/taga-minivan-driver.jpg",
     imageAlt: "TAGA’S Compassionate Care branded van with a professional driver and a smiling client in the back seat",
     description:
-      "Dependable nonmedical rides for approved appointments, errands, community activities, and essential destinations when authorized through the individual’s plan. Wheelchair-accessible vans available.",
+      "Assisted and unassisted nonmedical rides for approved appointments, errands, community activities, and essential destinations when authorized through the individual’s plan. Vans are wheelchair-accessible.",
     longDescription:
-      "Nonmedical Transportation is dependable, schedule-aware ride support for the destinations that matter in daily life — appointments, errands, community activities, and essential trips. Vans are wheelchair-accessible with mechanical lift support for boarding and alighting. Once seated, this is non-emergency, unassisted transportation that complements the individual’s plan.",
+      "Assisted and unassisted nonmedical transportation for the destinations that matter in daily life — appointments, errands, community activities, and essential trips. Vans are wheelchair-accessible with mechanical lift support for boarding and alighting. Once seated, this is non-emergency transportation that complements the individual’s plan.",
     context:
       "Transportation is provided when authorized through the individual’s waiver plan. Scheduling is communicated clearly in advance so families and individuals know when to expect a ride.",
     items: [
@@ -128,7 +128,7 @@ export const commonSituations = [
   {
     title: "Authorized appointments and errands",
     body:
-      "Scheduling unassisted nonmedical transportation for approved appointments, errands, and essential destinations.",
+      "Scheduling assisted or unassisted nonmedical transportation for approved appointments, errands, and essential destinations.",
   },
   {
     title: "Returning to community activities",

@@ -117,8 +117,8 @@ export default function WhoWeServePage() {
           </h2>
           <p className="mt-5 max-w-3xl leading-7 text-slate-600">
             The agency focuses on practical non-medical support for daily routines,
-            home and community activities, and unassisted transportation needs
-            when authorized through the individual’s plan.
+            home and community activities, and assisted or unassisted nonmedical
+            transportation needs when authorized through the individual’s plan.
           </p>
         </div>
       </section>
