@@ -14,7 +14,6 @@ export const exclusions = [
   "Therapy or rehabilitative treatment",
   "Medication administration",
   "Emergency medical transportation",
-  "Hospital or facility-based care",
 ];
 
 export const howItWorks = [
@@ -85,16 +84,16 @@ export const services = [
     ],
   },
   {
-    slug: "nonmedical-transportation-unassisted",
-    title: "Nonmedical Transportation - Unassisted",
+    slug: "nonmedical-transportation",
+    title: "Nonmedical Transportation",
     shortTitle: "Nonmedical Transportation",
-    eyebrow: "Transportation support",
+    eyebrow: "Wheelchair-accessible & unassisted rides",
     image: "/images/taga-minivan-driver.jpg",
     imageAlt: "TAGA’S Compassionate Care branded van with a professional driver and a smiling client in the back seat",
     description:
-      "Dependable unassisted transportation for approved appointments, errands, community activities, and essential destinations when authorized through the individual’s plan.",
+      "Dependable nonmedical rides for approved appointments, errands, community activities, and essential destinations when authorized through the individual’s plan. Wheelchair-accessible vans available.",
     longDescription:
-      "Nonmedical Transportation – Unassisted is dependable, schedule-aware ride support for the destinations that matter in daily life — appointments, errands, community activities, and essential trips. This is non-emergency, unassisted transportation that complements the individual’s plan.",
+      "Nonmedical Transportation is dependable, schedule-aware ride support for the destinations that matter in daily life — appointments, errands, community activities, and essential trips. Vans are wheelchair-accessible with mechanical lift support for boarding and alighting. Once seated, this is non-emergency, unassisted transportation that complements the individual’s plan.",
     context:
       "Transportation is provided when authorized through the individual’s waiver plan. Scheduling is communicated clearly in advance so families and individuals know when to expect a ride.",
     items: [
@@ -102,6 +101,8 @@ export const services = [
       "Transportation for errands",
       "Transportation to community activities",
       "Transportation to essential destinations",
+      "Wheelchair-accessible vans with mechanical lift support",
+      "Driver assistance with boarding and alighting",
       "Clear scheduling communication for rides",
     ],
   },

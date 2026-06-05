@@ -84,8 +84,9 @@ export default function Home() {
                   Nonmedical Transportation
                 </p>
                 <p className="mt-1 text-sm font-semibold leading-5 text-navy">
-                  Unassisted rides for approved appointments, errands, and essential
-                  destinations when authorized through the individual’s plan.
+                  Wheelchair-accessible vans with unassisted rides for approved
+                  appointments, errands, and essential destinations when authorized
+                  through the individual’s plan.
                 </p>
               </div>
             </div>
