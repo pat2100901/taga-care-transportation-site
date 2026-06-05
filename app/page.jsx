@@ -8,7 +8,6 @@ import {
   SecondaryLink,
   SectionIntro,
   ServiceCard,
-  ServicePreviewTile,
   StepCard,
 } from "./_components/site";
 import { business, exclusions, howItWorks, services } from "./_data/site";
@@ -146,19 +145,6 @@ export default function Home() {
           participants across Hendricks, Johnson, Marion, and Morgan counties.
         </p>
       </PageHero>
-
-      {/* Services at a Glance strip */}
-      <section className="mx-auto max-w-7xl px-5 pt-10 sm:px-8 lg:pt-14">
-        <div className="grid gap-4 sm:grid-cols-3">
-          {services.map((service) => (
-            <ServicePreviewTile
-              key={service.slug}
-              service={service}
-              href={`/services/${service.slug}`}
-            />
-          ))}
-        </div>
-      </section>
 
       {/* Core Services */}
       <section className="mx-auto max-w-7xl px-5 py-16 sm:px-8 lg:py-20">

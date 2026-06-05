@@ -218,8 +218,9 @@ export function SectionIntro({ eyebrow, title, children }) {
 }
 
 export function ServiceCard({ service }) {
-  return (
-    <article className="group flex h-full flex-col overflow-hidden rounded-[1.75rem] border border-slate-200/80 bg-white shadow-[0_16px_50px_rgba(18,49,92,0.08)] transition duration-300 hover:-translate-y-1 hover:border-teal/30 hover:shadow-[0_24px_70px_rgba(18,49,92,0.14)]">
+  const href = service.slug ? `/services/${service.slug}` : null;
+  const body = (
+    <>
       {service.image ? (
         <div className="overflow-hidden">
           <img
@@ -247,9 +248,28 @@ export function ServiceCard({ service }) {
             </li>
           ))}
         </ul>
+        {href ? (
+          <span className="mt-7 inline-flex items-center gap-2 text-sm font-extrabold uppercase tracking-[0.18em] text-teal transition group-hover:text-[#117c78]">
+            Learn more
+            <ArrowIcon />
+          </span>
+        ) : null}
       </div>
-    </article>
+    </>
   );
+
+  const baseClasses =
+    "group flex h-full flex-col overflow-hidden rounded-[1.75rem] border border-slate-200/80 bg-white shadow-[0_16px_50px_rgba(18,49,92,0.08)] transition duration-300 hover:-translate-y-1 hover:border-teal/30 hover:shadow-[0_24px_70px_rgba(18,49,92,0.14)]";
+
+  if (href) {
+    return (
+      <Link href={href} className={`${baseClasses} cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-teal/40`}>
+        {body}
+      </Link>
+    );
+  }
+
+  return <article className={baseClasses}>{body}</article>;
 }
 
 export function ComplianceNote({ className = "" }) {
