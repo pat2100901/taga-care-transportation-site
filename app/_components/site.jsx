@@ -145,6 +145,7 @@ export function PageHero({
   trustCards,
   panel,
   after,
+  afterTrust,
   titleClassName = "",
   gridClassName = "lg:items-center lg:py-20",
 }) {
@@ -172,6 +173,7 @@ export function PageHero({
               ))}
             </div>
           ) : null}
+          {afterTrust}
         </div>
         {panel}
       </div>

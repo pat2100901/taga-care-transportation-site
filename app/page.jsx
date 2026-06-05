@@ -45,6 +45,27 @@ export default function Home() {
           "Transportation Available",
           "Serving Hendricks, Johnson, Marion, and Morgan Counties",
         ]}
+        after={null}
+        afterTrust={
+          <div className="mt-8 max-w-[42rem]">
+            <div className="relative overflow-hidden rounded-[1.75rem] border border-white/80 bg-white shadow-[0_28px_80px_rgba(18,49,92,0.16)]">
+              <img
+                src="/images/wheelchair-van.jpg"
+                alt="TAGA’S Compassionate Care wheelchair-accessible van with a caregiver assisting a client down the deployed ramp"
+                className="h-auto w-full object-cover"
+              />
+              <span className="absolute left-4 top-4 inline-flex items-center gap-2 rounded-full bg-white/95 px-4 py-2 text-[10px] font-extrabold uppercase tracking-[0.2em] text-teal shadow-[0_8px_24px_rgba(18,49,92,0.18)] backdrop-blur">
+                <span className="size-1.5 rounded-full bg-teal" />
+                Wheelchair-Accessible Boarding
+              </span>
+              <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-navy/35 via-transparent to-transparent p-4 pt-10">
+                <p className="text-xs font-extrabold uppercase tracking-[0.2em] text-white drop-shadow">
+                  Assisted boarding · Mechanical lift · Unassisted rides
+                </p>
+              </div>
+            </div>
+          </div>
+        }
         panel={
           <div className="animate-fade-up relative rounded-[2rem] border border-white/80 bg-gradient-to-br from-white via-white to-[#eef7f6] p-5 shadow-[0_38px_100px_rgba(18,49,92,0.18)] backdrop-blur lg:p-6">
             <div className="animate-soft-float pointer-events-none absolute -right-10 -top-10 h-36 w-36 rounded-full bg-teal/25 blur-3xl" />
